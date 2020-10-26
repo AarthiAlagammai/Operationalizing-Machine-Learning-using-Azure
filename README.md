@@ -68,19 +68,42 @@ Pipeline form a basis of automation.Publishing a pipeline is the process of maki
 ## Key Steps
 1.Create an AutoMl run and find the best algorithm for the problem statement. From the below image we can see that Voting Ensemble is the best algorithm
 
+![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/automl%20best%20model.PNG)
+
 
 
 2.Deploy the best model using ACI(Azure Container Instance and Enable Authentication)
 
+![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/successful-deployment.PNG)
+
+
 3.Enable Application Insights using the logs.py file.
+
+![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/appinsights-enabled.PNG)
+
+![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/appinights_enabled1.PNG)
+
 
 4.Use Swagger Documentation to get a smpilifed document to consume the HTTP API
 
+![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/swagger_bank_marketing_post1.PNG)
+
+
 5.Consume the model using a RestEnpointAPI and Primary key. Update it in the endpoints.py file and retrive information from URL
+
+![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/endpoint_consume1.PNG)
+
+![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/endpoint_consume2.PNG)
+
 
 6. Benchmarking HTTP APIs is used to find the average response time for a deployed model.A benchmark is used to create a baseline or acceptable performance measure.
 
+![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/bench3.PNG)
+
+
 7.Consume and publish the API using Azure SDK
+
+![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/pipeline_endpoint.PNG)
 
 
 ## Standout Suggestions

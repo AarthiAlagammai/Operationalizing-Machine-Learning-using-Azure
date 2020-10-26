@@ -4,8 +4,8 @@
 Here we use bank marketing dataset [Dataset link](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv).This dataset is related to direct marketing campaigns of a Portuguese banking sector. The campaigns were based on phone calls.The goal is to classify whether a client will subscribe to a term deposit or not.The goal of this project is to use Azure to configure a cloud-based machine learning production model, deploy it, and consume it.Then also create, publish, and consume a pipeline.
 
 ## Architectural Diagram
-(https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/architecural%20diagram.png
-The following are the major steps used in the project)
+(https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/architecural%20diagram.png)
+The following are the major steps used in the project
 
 1.Authentication
 

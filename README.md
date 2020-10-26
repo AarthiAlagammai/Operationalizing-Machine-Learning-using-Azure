@@ -68,6 +68,8 @@ Pipeline form a basis of automation.Publishing a pipeline is the process of maki
 ## Key Steps
 1.Create an AutoMl run and find the best algorithm for the problem statement. From the below image we can see that Voting Ensemble is the best algorithm
 
+
+
 2.Deploy the best model using ACI(Azure Container Instance and Enable Authentication)
 
 3.Enable Application Insights using the logs.py file.

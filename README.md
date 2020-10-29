@@ -69,37 +69,43 @@ Pipeline form a basis of automation.Publishing a pipeline is the process of maki
 
 
 ## Key Steps
-1.Create an AutoMl run and find the best algorithm for the problem statement. From the below image we can see that Voting Ensemble is the best algorithm
+1.Make sure the dataset is available in the Registered dataset list in MLStudio
+
+2.Create an AutoMl run and wait till the run is completed
+
+3.Find the best algorithm for the problem statement. From the below image we can see that Voting Ensemble is the best algorithm for the problem statement 
 
 ![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/automl%20best%20model.PNG)
 
 
 
-2.Deploy the best model using ACI(Azure Container Instance and Enable Authentication)
+4.Deploy the best model using ACI(Azure Container Instance and Enable Authentication)
 
 ![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/successful-deployment.PNG)
 
 
-3.Enable Application Insights using the logs.py file.
-
-![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/appinsights-enabled.PNG)
+5.Enable Application Insights using the logs.py file and make sure that Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”.
 
 ![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/appinights_enabled1.PNG)
 
+6.Logging is enabled by running the provided logs.py script
 
-4.Use Swagger Documentation to get a smpilifed document to consume the HTTP API
+![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/appinsights-enabled.PNG)
+
+
+4.Use Swagger Documentation to get a smpilifed document to consume the HTTP API.wagger runs on localhost showing the HTTP API methods and responses for the model
 
 ![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/swagger_bank_marketing_post1.PNG)
 
 
-5.Consume the model using a RestEnpointAPI and Primary key. Update it in the endpoints.py file and retrive information from URL
+5.Consume the model using a RestEnpointAPI and Primary key. Update it in the endpoints.py file and run it against the API producing JSON output from the model.
 
 ![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/endpoint_consume1.PNG)
 
 ![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/endpoint_consume2.PNG)
 
 
-6. Benchmarking HTTP APIs is used to find the average response time for a deployed model.A benchmark is used to create a baseline or acceptable performance measure.
+6. Benchmarking HTTP APIs is used to find the average response time for a deployed model.A benchmark is used to create a baseline or acceptable performance measure.Here Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results
 
 ![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/bench3.PNG)
 

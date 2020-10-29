@@ -130,6 +130,10 @@ Pipeline form a basis of automation.Publishing a pipeline is the process of maki
 
 ![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Required%20Screenshots%20for%20the%20project/run_widget4.PNG)
 
+11.The Bankmarketing dataset with the AutoML module
+
+![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Required%20Screenshots%20for%20the%20project/pipeline_automl.PNG)
+
 
 ## Screen Cast
 

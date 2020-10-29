@@ -146,4 +146,5 @@ Pipeline form a basis of automation.Publishing a pipeline is the process of maki
 
 2.The accuracy of the model can be improved by solving the class imbalance issue of the bank-marketing datatset
 
+3.Increasing the  number of cross validation can help in achieving better accuracy
 

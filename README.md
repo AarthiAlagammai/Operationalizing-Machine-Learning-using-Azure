@@ -1,11 +1,11 @@
 
 # Operationalizing Machine Learning
 
-Here we use bank marketing dataset [Dataset link](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv).This dataset is related to direct marketing campaigns of a Portuguese banking sector. The campaigns were based on phone calls.The goal is to classify whether a client will subscribe to a term deposit or not.The goal of this project is to use Azure to configure a cloud-based machine learning production model, deploy it, and consume it.Then also create, publish, and consume a pipeline.
+Here we use bank marketing dataset [Dataset link](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv).This dataset is related to direct marketing campaigns of a Portuguese banking sector. The campaigns were based on phone calls.The goal is to classify whether a client will subscribe to a term deposit or not.The goal of this project is to use Azure to configure a cloud-based machine learning production model, deploy it to an end point, and consume it using an HTTP API.Then also create, publish, and consume a pipeline.
 
 ## Architectural Diagram
 
-![Flow](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/architecural%20diagram1.png)
+![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/architecural%20diagram1.png)
 
 ![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/architecural%20diagram.png)
 The following are the major steps used in the project
@@ -122,4 +122,8 @@ Pipeline form a basis of automation.Publishing a pipeline is the process of maki
 
 
 ## Standout Suggestions
-The accuracy of the model can be improved by solving the class imbalance issue of the bank-marketing datatset
+1.The exit criterion of the automl model is reduced to 1hour to save compute powe and resources which by increasing can lead to finding a better perofrming model
+
+2.The accuracy of the model can be improved by solving the class imbalance issue of the bank-marketing datatset
+
+

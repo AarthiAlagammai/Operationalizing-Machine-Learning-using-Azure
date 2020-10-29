@@ -137,8 +137,8 @@ Pipeline form a basis of automation.Publishing a pipeline is the process of maki
 
 ## Screen Cast
 
-1.https://drive.google.com/file/d/1ygG5Z2Rmc08pmMDCNVJHlxnJd1RVmpMw/view?usp=sharing- Short Explaination
-2.https://drive.google.com/file/d/18Tmkoa3VuiDwunO9wTxCPOp1yjXgvtsQ/view?usp=sharing- Detailed Explaination
+1.https://drive.google.com/file/d/1YcNE9d5-KTyGWRK73-eEri-S-VT9xMR7/view?usp=sharing - Short Explaination
+2.https://drive.google.com/file/d/18Tmkoa3VuiDwunO9wTxCPOp1yjXgvtsQ/view?usp=sharing - Detailed Explaination
 
 
 ## Standout Suggestions

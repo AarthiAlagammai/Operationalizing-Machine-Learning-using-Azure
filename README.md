@@ -71,12 +71,15 @@ Pipeline form a basis of automation.Publishing a pipeline is the process of maki
 ## Key Steps
 1.Make sure the dataset is available in the Registered dataset list in MLStudio
 
+![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Required%20Screenshots%20for%20the%20project/Registereddataset2.PNG)
+
 2.Create an AutoMl run and wait till the run is completed
+
+![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Required%20Screenshots%20for%20the%20project/automl_completed.PNG)
 
 3.Find the best algorithm for the problem statement. From the below image we can see that Voting Ensemble is the best algorithm for the problem statement 
 
 ![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/automl%20best%20model.PNG)
-
 
 
 4.Deploy the best model using ACI(Azure Container Instance and Enable Authentication)
@@ -109,10 +112,23 @@ Pipeline form a basis of automation.Publishing a pipeline is the process of maki
 
 ![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/bench3.PNG)
 
+7.Make sure the pipeline creation is completed
 
-7.Consume and publish the API using Azure SDK
+![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Required%20Screenshots%20for%20the%20project/completed_status.PNG)
+
+8.Check the status of endpoint in SDK 
+
+![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Required%20Screenshots%20for%20the%20project/active_endpoint.PNG)
+
+
+9.Consume and publish the API using Azure SDK
 
 ![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/pipeline_endpoint.PNG)
+
+10.Status of run widget
+![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Required%20Screenshots%20for%20the%20project/run_widget3.PNG)
+
+![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Required%20Screenshots%20for%20the%20project/run_widget4.PNG)
 
 
 ## Screen Cast

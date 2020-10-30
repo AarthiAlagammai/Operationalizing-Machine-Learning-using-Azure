@@ -5,9 +5,9 @@ Here we use bank marketing dataset [Dataset link](https://automlsamplenotebookda
 
 ## Architectural Diagram
 
-![ ](/Screenshots from the workspace/architecural diagram1.png)
+![ ](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/architecural%20diagram1.png)
 
-![ ](/Screenshots from the workspace/architecural diagram.png)
+![ ](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/architecural%20diagram.png)
 
 The following are the major steps used in the project
 

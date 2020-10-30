@@ -5,9 +5,10 @@ Here we use bank marketing dataset [Dataset link](https://automlsamplenotebookda
 
 ## Architectural Diagram
 
-![](Screenshots from the workspace/architecural diagram1.png)
+![ ](Screenshots from the workspace/architecural diagram1.png)
 
-![](Screenshots from the workspace/architecural diagram.png)
+![ ](Screenshots from the workspace/architecural diagram.png)
+
 The following are the major steps used in the project
 
 1.Authentication

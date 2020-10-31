@@ -143,7 +143,7 @@ Pipeline form a basis of automation.Publishing a pipeline is the process of maki
 2.https://drive.google.com/file/d/18Tmkoa3VuiDwunO9wTxCPOp1yjXgvtsQ/view?usp=sharing - Detailed Explaination
 
 
-## Standout Suggestions
+## Future Works
 1.The exit criterion of the automl model is reduced to 1hour to save compute powe and resources which by increasing can lead to finding a better perofrming model
 
 2.The accuracy of the model can be improved by solving the class imbalance issue of the bank-marketing datatset

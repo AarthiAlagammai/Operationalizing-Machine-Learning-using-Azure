@@ -5,10 +5,9 @@ Here we use bank marketing dataset [Dataset link](https://automlsamplenotebookda
 
 ## Architectural Diagram
 
-![ ](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/architecural%20diagram1.png)
+![Architecture](Screenshots_from_the_workspace/architecural-diagram1.png)
 
-![ ](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/architecural%20diagram.png)
-
+![Architecture](Screenshots_from_the_workspace/architecural-diagram.png)
 The following are the major steps used in the project
 
 1.Authentication

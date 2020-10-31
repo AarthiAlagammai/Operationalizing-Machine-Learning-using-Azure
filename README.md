@@ -139,6 +139,7 @@ Pipeline form a basis of automation.Publishing a pipeline is the process of maki
 
 ## Overall Work flow 
 
+ ![](Required_Screenshots/architecturedia.png)
 
 ## Future Works
 1.The exit criterion of the automl model is reduced to 1hour to save compute powe and resources which by increasing can lead to finding a better perofrming model

@@ -79,7 +79,7 @@ Pipeline form a basis of automation.Publishing a pipeline is the process of maki
 
 3.Find the best algorithm for the problem statement. From the below image we can see that Voting Ensemble is the best algorithm for the problem statement 
 
-![](https://github.com/AarthiAlagammai/Operationalizing-Machine-Learning-using-Azure/blob/master/Screenshots%20from%20the%20workspace/automl%20best%20model.PNG)
+![Best model](Screenshots_from_the_workspace/automlbestmodel.PNG)
 
 
 4.Deploy the best model using ACI(Azure Container Instance and Enable Authentication)
@@ -94,6 +94,8 @@ Pipeline form a basis of automation.Publishing a pipeline is the process of maki
 6.Logging is enabled by running the provided logs.py script
 
 ![Application Insights enabled](Screenshots_from_the_workspace/appinsights-enabled.PNG)
+
+![](Required_Screenshots/appinsights_log.PNG)
 
 
 7.Use Swagger Documentation to get a smpilifed document to consume the HTTP API.wagger runs on localhost showing the HTTP API methods and responses for the model
